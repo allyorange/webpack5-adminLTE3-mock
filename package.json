@@ -1,0 +1,41 @@
+{
+  "name": "webpack5-adminlte3-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --mode=production",
+    "start": "webpack serve --open --mode=development",
+    "build": "webpack --mode=production",
+    "build:expanded": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyorange/webpack5-adminLTE3-mock.git"
+  },
+  "keywords": [],
+  "author": "Ally Orange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allyorange/webpack5-adminLTE3-mock/issues"
+  },
+  "homepage": "https://github.com/allyorange/webpack5-adminLTE3-mock#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "admin-lte": "^3.1.0",
+    "clean-webpack-plugin": "*",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
